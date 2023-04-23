@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing Page Irailda</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="header">
+    <a href="#">
+      <img class="img-logo" src="./assets/logo.svg" alt="Logo nome Irailda">
+      <span class="header__logo-text">Fernandes</span>
+    </a>
+
+    <nav>
+      <ul>
+        <li><a href="#portfolio">Sobre</a></li>
+        <li><a href="#stacks">Stacks</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="bio" id="portfolio">
+      <img src="./assets/profile-pic.png" alt="Imagem da pessoa Irailda">
+
+      <div class="bio_info">
+        <h1 class="introducao_titulo">Irailda Fernandes</h1>
+        <p class="introducao_descricao">Apaixonada por tecnologia e experiência do usuário, gosto de aprender e entender a relação entre tecnologia, negócios e pessoas. Além das matérias da faculdade, gosto de estudar sobre Inovação, Criatividade e tudo que me conecta e expande como pessoa.</p>
+      </div>
+    </section>
+
+    <section id="stacks">
+      <h2>Minhas Stacks</h2>
+
+      <div class="area-cards">
+      <!-- Conteúdo adiocionada via JS -->
+      </div>
+    </section>
+
+    <section id="contato">
+      <h2 class="form-titulo">Entre em contato</h2>
+
+      <div class="area-content">
+        <div class="contact">
+          <a href="">
+            <img src="./assets/icons/email.svg" alt="">
+            iraildafernandes@gmail.com
+          </a>
+
+          <a href="https://www.linkedin.com/in/irailda-fernandes/" target="_blank">
+            <img src="./assets/icons/linkedin.svg" alt="">
+            in/irailda
+          </a>
+        </div>
+
+        <div class="area-form">
+          <form action="">
+            <label for="">
+              Nome:
+              <input type="text" name="nome">
+            </label>
+
+            <label for="">
+              E-mail:
+              <input type="email" name="email">
+            </label>
+
+            <label for="">Mensagem:</label>
+            <textarea name="textarea" id="" cols="10" rows="5"></textarea>
+
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
