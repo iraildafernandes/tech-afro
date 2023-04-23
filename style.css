@@ -93,9 +93,6 @@ nav li a:hover{
   height: 250px;
 }
 
-/* .bio_info {
-} */
-
 .bio_info .introducao_titulo{
   font-size: 42px;
 
@@ -214,7 +211,7 @@ nav li a:hover{
 }
 
 footer{
-  background-color: var(--amarelo);
   text-align: center;
+  color: var(--amarelo);
   padding: 10px;
 }
